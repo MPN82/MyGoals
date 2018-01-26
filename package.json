@@ -1,0 +1,17 @@
+{
+  "name": "mygoals",
+  "version": "1.0.0",
+  "description": "MyGoals project",
+  "main": "index.js",
+  "dependencies": {
+    "botbuilder": "^3.14.0",
+    "recharts": "^1.0.0-beta.9",
+    "restify": "^6.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manuel",
+  "license": "ISC"
+}
