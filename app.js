@@ -12,7 +12,7 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
 // Create chat connector for communicating with the Bot Framework Service
 const connector = new builder.ChatConnector({
     appId: config.get("MYGOALS_BOT_MICROSOFT_APP_ID"), //process.env.MicrosoftAppId,
-    appPassword: config.get() //process.env.MicrosoftAppPassword
+    appPassword: config.get("MYGOALS_BOT_MICROSOFT_APP_PASSWORD") //process.env.MicrosoftAppPassword
 });
 
 // Listen for messages from users 
